@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>2048</title>
+        <link href="./style/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+        <script src="./js/core.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <table>
+                <tbody>
+                <tr>
+                <td><div id="1-1" class="block"></div></td>
+                <td><div id="1-2" class="block"></div></td>
+                <td><div id="1-3" class="block"></div></td>
+                <td><div id="1-4" class="block"></div></td>
+                </tr>
+                <tr>
+                <td><div id="2-1" class="block"></div></td>
+                <td><div id="2-2" class="block"></div></td>
+                <td><div id="2-3" class="block"></div></td>
+                <td><div id="2-4" class="block"></div></td>
+                </tr>
+                <tr>
+                <td><div id="3-1" class="block"></div></td>
+                <td><div id="3-2" class="block"></div></td>
+                <td><div id="3-3" class="block"></div></td>
+                <td><div id="3-4" class="block"></div></td>
+                </tr>
+                <tr>
+                <td><div id="4-1" class="block"></div></td>
+                <td><div id="4-2" class="block"></div></td>
+                <td><div id="4-3" class="block"></div></td>
+                <td><div id="4-4" class="block"></div></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <button id="reset" onclick="reset()">重新玩</button>
+    </body>
+</html>
